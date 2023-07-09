@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="index.css" rel="stylesheet" />
+    <link href="/intro-to-programming-section-5/index.css" rel="stylesheet" />
     <title>Number Guesser</title>
   </head>
   <body>
@@ -15,13 +15,15 @@
         less?
       </p>
       <div>
-        <input type="number" id="guess" min="1" max="99" />
+        <input type="number" name="guess" id="guess" min="1" max="99" />
         <button id="submit">Submit Guess</button>
       </div>
       <div>
         <p class="message" id="number-of-guesses"></p>
         <p class="message" id="too-high">You guessed too high. Try again.</p>
         <p class="message" id="too-low">You guessed too low. Try again.</p>
+        <p class="message" id="below-zero">Must be greather than 0</p>
+        <p class="message" id="up-max">Must be less than 100</p>
         <p class="message" id="max-guesses">
           You reached the max number of guesses
         </p>
@@ -32,6 +34,6 @@
       </div>
       <button id="reset">Reset</button>
     </main>
-    <script src="index.js"></script>
+    <script src="/intro-to-programming-section-5/index.js"></script>
   </body>
 </html>

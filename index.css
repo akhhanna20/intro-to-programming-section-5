@@ -13,3 +13,15 @@ main {
 #reset {
   margin: 20px;
 }
+
+#below-zero {
+  color: red;
+}
+
+#up-max {
+  color: red;
+}
+
+#correct {
+  color: rgb(8, 162, 8);
+}
